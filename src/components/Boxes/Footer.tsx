@@ -65,30 +65,30 @@ export default function Footer() {
                 >
                     {/* Brand section */}
                     <Column gap="16">
-                        <Logo size="s" icon={true} href="/" aria-label="Lexisort Homepage" />
+                        <Logo size="s" icon={true} href="/" aria-label="lexisort Homepage" />
                         <Text variant="body-default-s" onBackground="neutral-medium">
-                            Lexisort is a AI Powered mail app
+                            Secure, private, AI-powered email companion
                         </Text>
                         <Row gap="12" paddingTop="16">
                             <IconButton
                                 variant="tertiary"
                                 size="s"
-                                icon="twitter"
-                                href="/"
-                                aria-label="Twitter"
+                                icon="instagram"
+                                href="https://www.instagram.com/arihant09/"
+                                aria-label="Instagram"
                             />
                             <IconButton
                                 variant="tertiary"
                                 size="s"
                                 icon="linkedin"
-                                href="/"
+                                href="https://www.linkedin.com/in/arihant-pal-2b8714228/"
                                 aria-label="LinkedIn"
                             />
                             <IconButton
                                 variant="tertiary"
                                 size="s"
                                 icon="github"
-                                href=""
+                                href="https://github.com/Ari1009/Lexisort"
                                 aria-label="GitHub"
                             />
                         </Row>
@@ -99,27 +99,14 @@ export default function Footer() {
                         <Column gap="16">
                             <Text variant="label-strong-s">Product</Text>
                             <Column gap="12">
-                                <SmartLink href="/pricing">Pricing</SmartLink>
-                                <SmartLink href="/security">Security</SmartLink>
-                                <SmartLink href="/help">Help Center</SmartLink>
+                                <SmartLink href="/features">Features</SmartLink>
                             </Column>
                         </Column>
 
                         <Column gap="16">
-                            <Text variant="label-strong-s">Legal</Text>
+                            <Text variant="label-strong-s">Company</Text>
                             <Column gap="12">
-                                <SmartLink href="/terms">Terms of Service</SmartLink>
-                                <SmartLink href="/privacy">Privacy Policy</SmartLink>
-                                <SmartLink href="/cookies">Cookie Policy</SmartLink>
-                            </Column>
-                        </Column>
-
-                        <Column gap="16">
-                            <Text variant="label-strong-s">Resources</Text>
-                            <Column gap="12">
-                                <SmartLink href="/blog">Blog</SmartLink>
-                                <SmartLink href="/contact">Contact</SmartLink>
-                                <SmartLink href="/api">API</SmartLink>
+                                <SmartLink href="/features">About</SmartLink>
                             </Column>
                         </Column>
                     </Row>
@@ -136,7 +123,7 @@ export default function Footer() {
                     vertical="center"
                 >
                     <Text variant="body-default-xs" onBackground="neutral-weak">
-                        © {currentYear} Lexisort. By Ari1009
+                        © {currentYear} lexisort. All rights reserved.
                     </Text>
 
                     <Row gap="16" vertical="center">
