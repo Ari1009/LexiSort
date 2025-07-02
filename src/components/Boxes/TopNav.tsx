@@ -72,16 +72,6 @@ export default function TopNav() {
 
                     <Row gap="4" hide="s" vertical="center" paddingLeft="24">
                         <ToggleButton
-                            selected={pathname === "/pricing"}
-                            href="/pricing"
-                            label="Pricing"
-                        />
-                        <ToggleButton
-                            selected={pathname === "/security"}
-                            href="/security"
-                            label="Security"
-                        />
-                        <ToggleButton
                             selected={pathname === "/features"}
                             href="/features"
                             label="Features"
@@ -131,24 +121,6 @@ export default function TopNav() {
                     }}
                 >
                     <Column gap="4" paddingX="16">
-                        <Button
-                            href="/pricing"
-                            size="m"
-                            label="Pricing"
-                            variant="tertiary"
-                            fillWidth
-                            justifyContent="start"
-                            onClick={closeMobileMenu}
-                        />
-                        <Button
-                            href="/security"
-                            size="m"
-                            label="Security"
-                            variant="tertiary"
-                            fillWidth
-                            justifyContent="start"
-                            onClick={closeMobileMenu}
-                        />
                         <Button
                             href="/features"
                             size="m"

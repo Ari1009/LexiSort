@@ -72,14 +72,14 @@ const schema = {
     type: "Organization",
     name: "lexisort",
     description: meta.description,
-    email: "hello@lexisort.dev",
+    email: "arihant09pal@gmail.com",
 };
 
 // social links
 const social = {
-    twitter: "https://www.twitter.com/lexisort",
-    linkedin: "https://www.linkedin.com/company/lexisort/",
-    github: "https://github.com/izadoesdev/mailer",
+    twitter: "",
+    linkedin: "",
+    github: "",
 };
 
 export { baseURL, style, meta, og, schema, social, effects };
