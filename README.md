@@ -243,16 +243,16 @@ cd lexisort
 docker compose up -d
 
 # Install dependencies
-npm install
+bun install
 
 # Set up environment variables
 cp .env.example .env.local
 
 # Run database migrations
-npx prisma db push
+bunx prisma db push
 
 # Start development server
-npm run dev
+bun run dev
 ```
 
 ### Manual Setup
